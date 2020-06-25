@@ -8,11 +8,11 @@ Aufgabe 4.1
 
 Aufgabe 4.2
   - [x] privates Github mit 2. Beleg als Grundlage
-  - [ ] aufgabe_2_und_3.cpp + CMakeLists
-  - [ ] Vektor mit Zufallszahlen
-  - [ ] std::set-Objekt
-  - [ ] Anzahl in std::vector bestimmen (4.2.1)
-  - [ ] nicht vorhandene Zahlen bestimmen und ausgeben (4.2.2)
+  - [x] aufgabe_2_und_3.cpp + CMakeLists
+  - [x] Vektor mit Zufallszahlen
+  - [x] std::set-Objekt
+  - [x] Anzahl in std::vector bestimmen (4.2.1)
+  - [x] nicht vorhandene Zahlen bestimmen und ausgeben (4.2.2)
 
 Aufgabe 4.3
   - [ ] Häufigkeit Zahlen std::vector auf 4.2 ermitteln
