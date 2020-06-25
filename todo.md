@@ -1,10 +1,10 @@
 ## Aufgabensammlung 4
 
 Aufgabe 4.1
-  - [ ] sequenzieller vs assoziativer Container
-  - [ ] Druckaufträge
-  - [ ] RGB-Werte
-  - [ ] Polygon
+  - [x] sequenzieller vs assoziativer Container
+  - [x] Druckaufträge
+  - [x] RGB-Werte
+  - [x] Polygon
 
 Aufgabe 4.2
   - [x] privates Github mit 2. Beleg als Grundlage
