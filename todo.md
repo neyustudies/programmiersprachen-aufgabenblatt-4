@@ -15,9 +15,9 @@ Aufgabe 4.2
   - [x] nicht vorhandene Zahlen bestimmen und ausgeben (4.2.2)
 
 Aufgabe 4.3
-  - [ ] Häufigkeit Zahlen std::vector auf 4.2 ermitteln
-  - [ ] Erklärung -> warum std::map geeignet
-  - [ ] "Zahl : Häufigkeit" auf Konsole ausgeben
+  - [x] Häufigkeit Zahlen std::vector auf 4.2 ermitteln
+  - [x] Erklärung -> warum std::map geeignet
+  - [x] "Zahl : Häufigkeit" auf Konsole ausgeben
 
 Aufgabe 4.4
   - [ ] Erklärung für unerwartetes Verhalten
