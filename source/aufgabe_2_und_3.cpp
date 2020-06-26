@@ -1,11 +1,13 @@
 #include <vector>
+#include <numeric> // for std::iota
 #include <set>
 #include <iostream>
-#include <numeric>
 #include <map>
 
 
 int main() {
+
+  std::srand((int)time(0));
 
   /* vector of 100 random numbers between 0 and 100 using lambda */
   std::vector<unsigned int> rand_100(100);
@@ -33,15 +35,16 @@ int main() {
 
   /* output of number values not in vector */
   std::cout << "\n\nNumbers not in vector:\n";
-  for(auto elem : unknown_ints) {
+  for(auto const& elem : unknown_ints) {
     std::cout << elem << " ";
   }
 
 
   /* map to determine the frequency of all numbers */
   std::map<unsigned int, unsigned int> frequent_ints;
-  std::for_each(rand_100.cbegin(), rand_100.cend(), [&frequent_ints] (unsigned int numbers) {
-    ++frequent_ints[numbers];
+  std::for_each(rand_100.cbegin(), rand_100.cend(),
+                [&frequent_ints] (unsigned int numbers) {
+                ++frequent_ints[numbers];
   });
 
 
