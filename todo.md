@@ -20,11 +20,11 @@ Aufgabe 4.3
   - [x] "Zahl : Häufigkeit" auf Konsole ausgeben
 
 Aufgabe 4.4
-  - [ ] Erklärung für unerwartetes Verhalten
-  - [ ] Wie zu vermeiden? -> Vorlesungsskript
+  - [x] Erklärung für unerwartetes Verhalten
+  - [x] Wie zu vermeiden? -> Vorlesungsskript
 
 Aufgabe 4.5
-  - [ ] aufgabe_5.cpp + CMakeLists
+  - [x] aufgabe_5.cpp + CMakeLists
   - [ ] Klasse Circle aus Beleg 2
   - [ ] std::list sorted_circles (nach Radius geordnet)
   - [ ] Operatoren überladen (<, >, ==)
