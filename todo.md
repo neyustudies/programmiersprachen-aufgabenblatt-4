@@ -25,9 +25,9 @@ Aufgabe 4.4
 
 Aufgabe 4.5
   - [x] aufgabe_5.cpp + CMakeLists
-  - [ ] Klasse Circle aus Beleg 2
+  - [x] Klasse Circle aus Beleg 2
   - [ ] std::list sorted_circles (nach Radius geordnet)
-  - [ ] Operatoren überladen (<, >, ==)
+  - [x] Operatoren überladen (<, >, ==)
   - [ ] std::sort, std::is_sorted
 
 Aufgabe 4.6
