@@ -32,3 +32,6 @@ target_link_libraries(aufgabe_6_und_7
 
 add_executable(aufgabe_8
   aufgabe_8.cpp)
+
+add_executable(aufgabe_9
+  aufgabe_9.cpp)

@@ -44,8 +44,8 @@ Aufgabe 4.8
   - [x] Typen benennen
 
 Aufgabe 4.9
-  - [ ] std::vector aus 4.2 in neue std::list mittels std::copy
-  - [ ] mit std::copy Ausgabe der letzten 10 Elemente von Vector und Liste
+  - [x] std::vector aus 4.2 in neue std::list mittels std::copy
+  - [x] mit std::copy Ausgabe der letzten 10 Elemente von Vector und Liste
 
 Aufgabe 4.10
   - [ ] aufgabe_10.cpp + CMakeLists
