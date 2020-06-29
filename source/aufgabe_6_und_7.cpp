@@ -31,11 +31,10 @@ TEST_CASE("Sorting circles with Functor", "[sorting_circles] (functor)") {
 
   std::list<Circle> sorted_circles;
   
-  class less {
-    public:
-      bool operator() (Circle const& a, Circle const& b) const {
-        return a.radius() < b.radius();
-      }
+  struct less {
+    bool operator() (Circle const& a, Circle const& b) const {
+      return a.radius() < b.radius();
+    }
   };
 
   SECTION("radius of circles should be in correct order after sorting") {
