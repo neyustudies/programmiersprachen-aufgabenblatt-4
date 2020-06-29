@@ -13,9 +13,24 @@ target_link_libraries(aufgabe_5
   glfw
   ${GLFW_LIBRARIES}
   nanovg
-  ${OPENGL_LIBRARIES}
-  
+  ${OPENGL_LIBRARIES} 
 )
+
+add_executable(aufgabe_6_und_7 
+  glew.c
+  aufgabe_6_und_7.cpp
+  vec2.cpp
+  circle.cpp
+  window.cpp
+  )
+target_link_libraries(aufgabe_6_und_7
+  glfw
+  ${GLFW_LIBRARIES}
+  nanovg
+  ${OPENGL_LIBRARIES} 
+)
+
+
 
 #arget_include_directories(tests PRIVATE thirdparty/catch/include)
 #catch ${CATCH_DIRECTORY}

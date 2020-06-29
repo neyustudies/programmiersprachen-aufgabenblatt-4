@@ -26,14 +26,14 @@ Aufgabe 4.4
 Aufgabe 4.5
   - [x] aufgabe_5.cpp + CMakeLists
   - [x] Klasse Circle aus Beleg 2
-  - [ ] std::list sorted_circles (nach Radius geordnet)
+  - [x] std::list sorted_circles (nach Radius geordnet)
   - [x] Operatoren überladen (<, >, ==)
-  - [ ] std::sort, std::is_sorted
+  - [x] sort, std::is_sorted
 
 Aufgabe 4.6
-  - [ ] Vergleichsfunktion mittels lambda implementieren
-  - [ ] Kreise -> std::sort mit Vergleichsfunktion als Parameter
-  - [ ] testen mittels std::is_sorted
+  - [x] Vergleichsfunktion mittels lambda implementieren
+  - [x] Kreise -> sort mit Vergleichsfunktion als Parameter
+  - [x] testen mittels std::is_sorted
 
 Aufgabe 4.7
   - [ ] 4.6 mittels Funktor lösen (optional)
