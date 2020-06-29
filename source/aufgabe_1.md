@@ -21,17 +21,17 @@
 
 #### Beispiele:
 a) FIFO-Warteschlange von Druckaufträgen
-- adaptive Container
-- am besten Queue
+- sequenzieller Container (deque)
+- effizientes Einfügen am Anfang + Ende
+- adaptiver Container queue auch möglich
 
 b) Zuordnung Farbname zu ensprechenden RGB-Werten
-- assoziativer Container
-- map<String, Color> eignet sich zB. gut
-- Reihenfolge egal
-- Zuordnung von String
+- assoziativer Container (map)
+- map<String, Color> sinnvoll
+- direkte Zuordnung von String zu Werten
 
 c) Speichern der Punkte eines Polygons:
-- sequenzieller Container
-- keine spezielle Zuordnung
+- sequenzieller Container (vector)
+- keine spezielle Zuordnung nötig
 - sollte gut iterierbar sein
 
