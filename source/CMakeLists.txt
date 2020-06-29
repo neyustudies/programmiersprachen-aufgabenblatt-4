@@ -29,8 +29,3 @@ target_link_libraries(aufgabe_6_und_7
   nanovg
   ${OPENGL_LIBRARIES} 
 )
-
-
-
-#arget_include_directories(tests PRIVATE thirdparty/catch/include)
-#catch ${CATCH_DIRECTORY}
