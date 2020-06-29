@@ -16,8 +16,8 @@ class Circle {
     float radius() const;
     Vec2 center() const;
     Color color() const;
+    void draw(Window const& win) const;
     void draw(Window const& win, Color const& clr) const;
-    void draw(Window const& win, Color const& clr, float thickness) const;
     bool is_inside(Vec2 const& point) const;
 
   private:
@@ -26,5 +26,9 @@ class Circle {
     Color color_;
 
 };
+
+bool operator<(Circle const& lhs, Circle const& rhs);
+bool operator>(Circle const& lhs, Circle const& rhs);
+bool operator==(Circle const& lhs, Circle const& rhs);
 
 #endif // CIRCLE_HPP

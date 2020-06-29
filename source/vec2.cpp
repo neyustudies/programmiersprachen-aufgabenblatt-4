@@ -28,7 +28,7 @@ Vec2& Vec2::operator/=(float s) {
     return *this;
 }
 
-/*--- Free Functions of vec2 -------------------------*/
+/*-------------------------------------------------------*/
 
 Vec2 operator+(Vec2 const& u, Vec2 const& v) {
   return Vec2(u) += v;
