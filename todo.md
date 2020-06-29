@@ -36,12 +36,12 @@ Aufgabe 4.6
   - [x] testen mittels std::is_sorted
 
 Aufgabe 4.7
-  - [ ] 4.6 mittels Funktor lösen (optional)
+  - [x] 4.6 mittels Funktor lösen (optional)
 
 Aufgabe 4.8
-  - [ ] Beispielprogramm hinzufügen, kompilieren
-  - [ ] Funktionsweise analysieren, erläutern
-  - [ ] Variablentypen benennen
+  - [x] Beispielprogramm hinzufügen, kompilieren
+  - [x] Funktionsweise analysieren, erläutern
+  - [x] Typen benennen
 
 Aufgabe 4.9
   - [ ] std::vector aus 4.2 in neue std::list mittels std::copy

@@ -29,3 +29,6 @@ target_link_libraries(aufgabe_6_und_7
   nanovg
   ${OPENGL_LIBRARIES} 
 )
+
+add_executable(aufgabe_8
+  aufgabe_8.cpp)
