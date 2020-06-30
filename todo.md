@@ -48,11 +48,11 @@ Aufgabe 4.9
   - [x] mit std::copy Ausgabe der letzten 10 Elemente von Vector und Liste
 
 Aufgabe 4.10
-  - [ ] aufgabe_10.cpp + CMakeLists
-  - [ ] std::vector mit 100 Zufallszahlen (0-100)
-  - [ ] Entfernen der Zahlen, die nicht durch 3 teilbar sind
-  - [ ] Wiki Artikel lesen
-  - [ ] testen mit std::all_of -> Hilfsfunktion is_multiple_of_3
+  - [x] aufgabe_10.cpp + CMakeLists
+  - [x] std::vector mit 100 Zufallszahlen (0-100)
+  - [x] Entfernen der Zahlen, die nicht durch 3 teilbar sind
+  - [x] Wiki Artikel lesen
+  - [x] testen mit std::all_of -> Hilfsfunktion is_multiple_of_3
 
 Aufgabe 4.11
   - [ ] std::transform, addieren und speichern von std::vector
