@@ -55,8 +55,8 @@ Aufgabe 4.10
   - [x] testen mit std::all_of -> Hilfsfunktion is_multiple_of_3
 
 Aufgabe 4.11
-  - [ ] std::transform, addieren und speichern von std::vector
-  - [ ] testen mittels lambdas
+  - [x] std::transform, addieren und speichern von std::vector
+  - [x] testen mittels lambdas
 
 Aufgabe 4.12
   - [ ] Funktionstemplate filter mit geg. Parametern
