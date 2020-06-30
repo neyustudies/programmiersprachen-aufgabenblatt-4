@@ -59,8 +59,8 @@ Aufgabe 4.11
   - [x] testen mittels lambdas
 
 Aufgabe 4.12
-  - [ ] Funktionstemplate filter mit geg. Parametern
-  - [ ] Funktion testen mit Code von 4.10 als Orientierung
+  - [x] Funktionstemplate filter mit geg. Parametern
+  - [x] Funktion testen mit Code von 4.10 als Orientierung
 
 Aufgabe 4.13
   - [ ] std::vector mit Objekten von Circle mit versch. Radius
