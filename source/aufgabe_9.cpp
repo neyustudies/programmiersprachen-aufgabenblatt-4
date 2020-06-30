@@ -5,6 +5,8 @@
 
 int main() {
 
+  std::srand((int)time(0));
+
   std::vector<unsigned int> vec(100);
   std::generate(vec.begin(), vec.end(), [] () {
     return rand() % 101;
@@ -22,3 +24,4 @@ int main() {
 
   return 0;
 }
+
