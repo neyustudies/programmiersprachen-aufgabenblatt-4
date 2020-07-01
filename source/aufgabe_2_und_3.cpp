@@ -1,8 +1,9 @@
 #include <vector>
-#include <numeric> // for std::iota
+#include <numeric> // std::iota
 #include <set>
 #include <iostream>
 #include <map>
+#include <algorithm> // std::set_difference, std::generate
 
 
 int main() {
@@ -17,7 +18,7 @@ int main() {
 
 
   /* vector of all possible values */
-  std::vector<unsigned int> all_ints(101);
+  std::vector<unsigned int> all_ints(rand_100.size());
   std::iota(all_ints.begin(), all_ints.end(), 0);
 
 
