@@ -63,10 +63,10 @@ Aufgabe 4.12
   - [x] Funktion testen mit Code von 4.10 als Orientierung
 
 Aufgabe 4.13
-  - [ ] std::vector mit Objekten von Circle mit versch. Radius
-  - [ ] 2. vector -> erhält mittels copy_if Kreise > 4.0f
-  - [ ] lambda für Prädikat
-  - [ ] testen mittels all_of und lambda
+  - [x] std::vector mit Objekten von Circle mit versch. Radius
+  - [x] 2. vector -> erhält mittels copy_if Kreise > 4.0f
+  - [x] lambda für Prädikat
+  - [x] testen mittels all_of und lambda
 
 Aufgabe 4.14
   - [ ] Alternative 1 oder 2?
