@@ -16,6 +16,9 @@ Circle::Circle(Vec2 const& ctr, float r, Color const& clr) :
   radius_ {r},
   color_  {clr} {}
 
+Circle::Circle(float r) :
+  radius_ {r} {}
+
 float Circle::circumference() const {
   float c = M_PI * radius() * 2;
   if(c < 0) {
