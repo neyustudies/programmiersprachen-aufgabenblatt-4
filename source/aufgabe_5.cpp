@@ -4,7 +4,8 @@
 #include <list>
 #include <algorithm>
 
-  TEST_CASE("Sorting Circles ", "[sort]") {
+
+  TEST_CASE("Sorting Circles", "[sort]") {
     
     std::list<Circle> sorted_circles;
 
@@ -21,9 +22,6 @@
       sorted_circles.sort();
       REQUIRE(std::is_sorted(sorted_circles.cbegin(), sorted_circles.cend()));
     }
-    
-    
-
   }
 
 
