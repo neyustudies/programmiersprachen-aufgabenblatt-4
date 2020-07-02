@@ -12,11 +12,14 @@ class Circle {
     Circle();
     Circle(float r);
     Circle(Vec2 const& ctr, float r);
+    Circle(Vec2 const& ctr, float r, std::string const& name);
     Circle(Vec2 const& ctr, float r, Color const& clr);
+    Circle(Vec2 const& ctr, float r, Color const& clr, std::string const& name);
     float circumference() const;
     float radius() const;
     Vec2 center() const;
     Color color() const;
+    std::string name() const;
     void draw(Window const& win) const;
     void draw(Window const& win, Color const& clr) const;
     bool is_inside(Vec2 const& point) const;
@@ -25,6 +28,7 @@ class Circle {
     Vec2 center_;
     float radius_;
     Color color_;
+    std::string name_;
 
 };
 

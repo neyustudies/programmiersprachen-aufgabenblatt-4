@@ -7,17 +7,29 @@ Circle::Circle() :
   radius_ {100.0f},
   color_  {0.7f,0.7f,0.7f} {}
 
+Circle::Circle(float r) :
+  radius_ {r} {}
+
 Circle::Circle(Vec2 const& ctr, float r) :
   center_ {ctr},
   radius_ {r} {}
+
+Circle::Circle(Vec2 const& ctr, float r, std::string const& name) :
+  center_ {ctr},
+  radius_ {r},
+  name_   {name} {}
 
 Circle::Circle(Vec2 const& ctr, float r, Color const& clr) :
   center_ {ctr},
   radius_ {r},
   color_  {clr} {}
 
-Circle::Circle(float r) :
-  radius_ {r} {}
+Circle::Circle(Vec2 const& ctr, float r, Color const& clr, std::string const& name) :
+  center_ {ctr},
+  radius_ {r},
+  color_  {clr},
+  name_   {name} {}
+
 
 float Circle::circumference() const {
   float c = M_PI * radius() * 2;
@@ -36,6 +48,10 @@ Vec2 Circle::center() const {
 
 Color Circle::color() const {
   return color_;
+}
+
+std::string Circle::name() const {
+  return name_;
 }
 
 void Circle::draw(Window const& win) const {
