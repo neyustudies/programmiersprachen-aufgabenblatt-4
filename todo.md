@@ -69,7 +69,6 @@ Aufgabe 4.13
   - [x] testen mittels all_of und lambda
 
 Aufgabe 4.14
-  - [ ] Alternative 1 oder 2?
-
+  - [x] Alternative 2
 
 
