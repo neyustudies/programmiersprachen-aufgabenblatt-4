@@ -16,7 +16,7 @@ exmatrikulation(matrikelnummern["Fred Fuchs"]);
 - Methode exmatrikulation( ) greift direkt auf map container zu
 - falls "Fred Fuchs" nicht vorhanden ist, wird er mittels operator[ ] mit Wert 0  
   in 'matrikelnummern' eingefügt und dann '0' exmatrikuliert
-- falls "Fred Fuchs" mehrmals existiert, kann auch falscher Wert modifiziert werden
+- Matrikelnummer sollte eher der Schlüssel sein, da einzigartig
 
 #### Lösung:
 - [`std::map::insert()`](http://en.cppreference.com/w/cpp/container/map/insert)
