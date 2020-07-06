@@ -13,7 +13,7 @@ int main() {
   /* vector of 100 random numbers between 0 and 100 using lambda */
   std::vector<unsigned int> rand_100(100);
   std::generate(rand_100.begin(), rand_100.end(), [] () {
-    return rand() % 101;
+    return std::rand() % 101;
   });
 
 
