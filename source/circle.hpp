@@ -34,7 +34,7 @@ class Circle {
     Vec2 center_;
     float radius_;
     Color color_;
-    std::string name_;
+    std::string name_ = " ";
     float thickness_ = 1.0f;
 
 };
